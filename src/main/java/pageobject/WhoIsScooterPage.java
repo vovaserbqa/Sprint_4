@@ -23,12 +23,12 @@ public class WhoIsScooterPage {
         this.driver = driver;
     }
 
-    public WhoIsScooterPage clickOrderButton1() {
+    public WhoIsScooterPage clickOrderHeaderButton() {
         driver.findElement(orderButton1).click();
         return this;
     }
 
-    public WhoIsScooterPage clickOrderButton2() {
+    public WhoIsScooterPage clickOrderFinishButton() {
         driver.findElement(orderButton2).click();
         return this;
     }
